@@ -1,0 +1,31 @@
+CLIENT OUTPUT:
+student@student-OptiPlex-3020:~/Desktop$ ./client
+Socket Created Successfully...
+Connected to Server...
+
+Generated 3x3 Matrix:
+10	25	12	
+0	30	15	
+0	0	5
+
+Matrix Sent to Server...
+
+Server Classification Result : 
+Connection Closed...
+
+SERVER OUTPUT:
+
+student@student-OptiPlex-3020:~/Desktop$ ./server
+Socket Created Successfully...
+Bind Successful...
+Waiting for Client...
+Client Connected...
+
+Received 3x3 Matrix from Client:
+10	25	12	
+0	30	15	
+0	0	5	
+
+Analysis Result Sent: Upper Triangular Matrix
+Connection Closed...
+
